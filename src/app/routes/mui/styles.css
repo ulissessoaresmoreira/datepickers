@@ -1,0 +1,11 @@
+/* Estilo para o círculo verde nos dias destacados */
+.MuiPickersDay-day.highlight {
+  background-color: green;
+  color: white;
+  border-radius: 50%;
+}
+
+.MuiPickersDay-day.highlight:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}

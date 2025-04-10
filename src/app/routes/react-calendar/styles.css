@@ -1,0 +1,36 @@
+/* styles.css */
+
+.highlighted {
+    background-color: #4CAF50;  /* Cor de fundo verde */
+    color: white;               /* Cor da fonte branca */
+    border-radius: 10%;         /* Deixar o fundo redondo */
+    font-weight: bold;          /* Texto em negrito */
+  }
+  
+
+  /* Estilo para destacar os dias */
+.react-calendar__tile.highlighted-day {
+  background-color: green;
+  color: white;
+
+  font-weight: bold;
+}
+
+.react-calendar__tile.highlighted-day:hover {
+  background-color: darkgreen;
+  cursor: pointer;
+}
+
+
+.react-calendar {
+  width: 100% !important;
+  max-width: 100% !important;
+  font-size: 0.9rem; /* Ajuste de tamanho de fonte, pode aumentar se quiser */
+}
+
+.calendar-wrapper {
+  width: 100%;
+  max-width: 440px;
+  max-height: 440px;
+  padding: 0.2rem;
+}

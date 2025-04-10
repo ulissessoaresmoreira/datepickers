@@ -1,0 +1,9 @@
+/* styles.css */
+
+.highlighted-day {
+    background-color: #4CAF50;  /* Cor de fundo verde */
+    color: white;               /* Cor da fonte branca */
+    border-radius: 10%;         /* Deixar o fundo redondo */
+    font-weight: bold;          /* Texto em negrito */
+  }
+  
